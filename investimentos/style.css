@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*#region Header */
+header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 80px;
+    justify-content: space-between;
+    background-color: rgb(58, 58, 58);
+    margin-bottom: 40px;
+    box-shadow: 0px 2px 4px #888888;
+}
+
+header div{
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+header nav{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a{
+    background-color: rgb(111, 111, 111);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header nav a:hover{
+    color: #000000;
+    background-color: rgb(172, 172, 172);
+}
+
+
+/*#endregion */
+
+
+
+/*#region Container */
+.container {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    background-color: red;
+    display: flex;
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.tabela{
+    background-color: greenyellow;
+    border: 1px solid black;
+    width: 50%;
+    margin: 10px;
+}
+
+.tabela th{
+    border: 1px solid black;
+}
+.tabela td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+/*#endregion */
+
